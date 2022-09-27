@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Playfair+Display&family=Roboto:ital,wght@0,300;0,500;1,100;1,300&display=swap');
+
+body{
+    font-family:"Oswald",sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+.k{
+    color: #2565AE;
+    font-size: larger;
+}
+#red{
+    color:#2565AE ;
+}
+#red:hover{
+    color: black;
+}
+
+.local{
+    background-color: #2565AE;
+    color: white;
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    font-size: larger;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}  
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(52, 180, 197, 0.3),rgba(17,7,254,0.7));
+    z-index: -1;
+
+} 
+
+#details {
+    font-size: 25px;
+}
+.navbar a{
+    font-size: 19px;
+}
+.home-section{
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.btn{
+    padding: 14px 22px;
+    background: linear-gradient(rgba(52, 180, 197),rgba(17,7,254));
+    color: white;
+}
+
+.mainn{
+    padding: 14px 22px;
+    background: linear-gradient(to right ,rgba(52, 180, 197),rgba(17,7,254));
+    border-radius: 3;
+    font-weight: 600;
+    color: white;
+}
+.btn{
+    padding: 14px,22px;
+    transition: all 0.3s ease;
+}
+.mainn:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.card{
+    border-radius: none;
+    width: 22rem;
+    height: 32rem;
+}
+.card-title{
+    font-weight: 700;
+    font-size: large;
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
